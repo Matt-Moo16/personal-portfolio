@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+  }
+  
+  html, body {
+    margin: 0%;
+    padding: 0%;  
+  }
+
+  .HomePage {
+    overscroll-behavior: none;
+    overflow:hidden;
+  }
+
+  .outerContainer {
+    background: url(./images/dark-rainy-road.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0%;
+    animation: zoomIn 4s ease-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+  }
+  
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+} 
+  
+  
+  .mainContent {
+    display: inline-block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    opacity: 0.80;
+  }
+  
+  @keyframes show {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .middleContainer {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: show 4s ease-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  .mainContent {
+    background-color: black;
+    width: 100%;
+    color: #d3d3d3;
+  }
+  
+  .HomePage h2 {
+    letter-spacing: 6px;
+  }
+
+  @media screen and (max-width: 550px) {
+    .middleContainer {
+      opacity: 1;
+      animation: none;
+    }
+    .outerContainer {
+      animation: none;
+    }
+  }

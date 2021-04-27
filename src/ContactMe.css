@@ -1,0 +1,142 @@
+.contactimg1 {
+    background-image: url(./images/dark-rainy-road.jpg);
+    min-height: 700px;
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contactimg2 {
+    background-image: url(./images/trees-and-fog.jpg);
+    min-height: 400px;
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contacttext1 {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.contacttext2 {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.contacttext1, .contactborder1 {
+    background-color: black;
+    color: #d3d3d3;   
+}
+
+.ContactMe section {
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    color: #d3d3d3;
+    opacity: 0.80;
+}
+
+.ContactMe p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ContactMe form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto 25% auto 25%;
+}
+
+.ContactMe label {
+    margin-bottom: 10px;
+}
+
+.ContactMe input {
+    margin-bottom: 10px;
+    color: black;
+    border-radius: 8px;
+    border-color: #d3d3d3;
+    background-color: #d3d3d3;
+}
+
+.ContactMe textarea {
+    margin-bottom: 10px;
+    min-height: 175px;
+    color: black;
+    border-radius: 8px;
+    border-color: #d3d3d3;
+    background-color: #d3d3d3;
+}
+
+@keyframes bounce {
+    10% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+    20% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    30% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+    40% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+    60% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+    70% {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+    80% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    90% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.contactborder2 img:hover {
+    -webkit-animation: bounce 1s ease;
+    animation: bounce 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    text-decoration-line: line-through;  
+}

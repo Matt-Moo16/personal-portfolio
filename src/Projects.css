@@ -1,0 +1,162 @@
+.Projects {
+    height: 100%;
+    margin: 0;
+    font-size: 18px;
+
+}
+
+.Projects img {
+    max-height: 250px;
+    width: auto;
+}
+
+.pimg1 {
+    background-image: url(./images/dark-rainy-road.jpg);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.pimg2 {
+    background-image: url(./images/trees-and-fog.jpg);
+    min-height: 400px;
+    width: 100%;
+}
+
+.pimg3 {
+    background-image: url(./images/trees-and-cabin.jpg);
+    min-height: 500px;
+    width: 100%;
+
+}
+
+.pimg4 {
+    background-image: url(./images/trees-bare.jpg);
+    min-height: 500px;
+    max-height: auto;
+    width: auto;
+    
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4 {
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 33%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.ptext, .pborder {
+    background-color: black;
+    color: #d3d3d3;
+    
+}
+
+.Projects section {
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    color: #d3d3d3;
+    opacity: 0.80;
+}
+
+.Projects li {
+    list-style-type: none;
+}
+
+.Projects h2 {
+    margin: 10px auto 10px auto;
+}
+
+.Projects a {
+    text-decoration: none;
+    color: #d3d3d3;
+
+}
+
+.skillsUsed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 10px;
+}
+
+.skillsUsed h4 {
+    text-align: center;
+}
+
+.Projects ul {
+    padding: 0px;
+}
+
+@keyframes swing {
+    10% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+    20% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+    30% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+    40% {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px);
+    }
+    50% {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+    60% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+    70% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+    80% {
+        -webkit-transform: translateX(-4px);
+        transform: translateX(-4px);
+    }
+    90% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.plinks li:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    text-decoration-line: line-through;
+}
+
+@media screen and (max-width: 650px) {
+    .Projects img {
+        width: 75%;
+        height: auto;
+    } 
+}

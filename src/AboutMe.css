@@ -1,0 +1,56 @@
+.aboutimg1 {
+    background-image: url(./images/dark-rainy-road.jpg);
+    min-height: 500px;
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.aboutimg2 {
+    background-image: url(./images/trees-and-cabin.jpg);
+    min-height: 500px;
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.abouttext {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.abouttext, .aboutborder {
+    background-color: black;
+    color: #d3d3d3;   
+}
+
+.AboutMe section {
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    color: #d3d3d3;
+    opacity: 0.80;
+}
+
+.AboutMe p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.AboutMe li {
+    list-style-type: none;
+}
+

@@ -1,0 +1,67 @@
+.NavHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.NavHeader a {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+.NavHeader h3 {
+    margin: 10px auto 10px auto;
+    font-size: 20px;
+}
+
+@keyframes swing {
+    10% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+    20% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+    30% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+    40% {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px);
+    }
+    50% {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+    }
+    60% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+    70% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+    80% {
+        -webkit-transform: translateX(-4px);
+        transform: translateX(-4px);
+    }
+    90% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.NavHeader h3:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    text-decoration-line: line-through;
+}
