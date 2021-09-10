@@ -18,7 +18,10 @@ export default function AboutMe() {
                     When the COVID pandemic hit, I was displaced from my previous career path as a restaurant manager. During my time off, I started teaching myself Python and HTML/CSS/Javascript through online resources like CodeAcademy. 
                 </p>
                 <p>
-                    Through this, I quickly found out that I enjoyed learning how to code. I am currently in the process of completing Thinkful's front end web development program so I can expand my portfolio, learn as much as possible, and start my career as a software engineer.
+                    Through this, I quickly found out that I enjoyed learning how to code.
+                    In March of 2021 I completed Thinkful's Engineering Flex Program. 
+                    In this program I learned the basics of Full Stack Web Development and how to utilize languages such as Javascript, HTML and Python as well as frameworks such as ReactJS and NodeJS.
+                    
                 </p>
                 <p>
                     I am very excited to have the ability and opportunity to learn such a valuable skill and turn it into a career path. I enjoy and look forward to working with others, using these skills for the betterment of society, and creating an inclusive environment for all.
