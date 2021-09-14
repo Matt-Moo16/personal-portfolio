@@ -20,7 +20,7 @@ export default function AboutMe() {
                 <p>
                     Through this, I quickly found out that I enjoyed learning how to code.
                     In March of 2021 I completed Thinkful's Engineering Flex Program. 
-                    In this program I learned the basics of Full Stack Web Development and how to utilize languages such as Javascript, HTML and Python as well as frameworks such as ReactJS and NodeJS. 
+                    In this program I learned the basics of Full Stack Web Development and how to utilize languages such as Javascript, HTML and Python as well as frameworks such as ReactJS and NodeJS.
 
                 </p>
                 <p>
